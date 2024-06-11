@@ -1,6 +1,6 @@
 Primer Parcial - Diseño Web - 2do año - Tecnicatura Superior en Desarrollo de Software
 # Pagina web del ISFT204
-Se seleccionó la creacion / re diseño de la pagina web del instituto, para cumplir con los requisitos del primer parcial de la cátedra: " Diseño Web ". En la misma no se utilizaron tecnologias ni librerias que no fuesen parte del temario dictado hasta el momento, correspondientes al PRIMER CUATRIMESTE de la catedra.
+Se seleccionó la creacion / re diseño de la pagina web del instituto, para cumplir con los requisitos del primer parcial de la cátedra: " Diseño Web ". En la misma no se utilizaron frameworks ni librerias, que no fuesen parte del temario dictado hasta el momento, correspondientes al PRIMER CUATRIMESTE de la catedra.
 
 A continuacion se visualiza una breve reseña del diseño inicial de la web: [ver en Youtube](https://www.youtube.com/watch?v=6mUNuprCxAM)
 
