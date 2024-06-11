@@ -1,0 +1,371 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./recursos/fondox1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.menu {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icono {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #39B3E6;  /* se copio el color con jcpicker desde la pagina original */
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.barra-menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #39B3E6;
+}
+
+.inscripcion {
+    float: right;
+    width: 200px;
+}
+
+.boton {
+    width: 100px;
+    height: 40px;
+    background: #39B3E6;
+    border: 2px solid #39B3E6;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: #000;
+}
+
+.boton:focus {
+    outline: none;
+}
+
+.info0{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 0px;
+}
+.contenido {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-align: justify;
+}
+
+.contenido .parrafo {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.contenido h1 {
+    font-family: Arial;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.contenido .boton-accion {
+    width: 160px;
+    height: 40px;
+    background: #39B3E6;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contenido .boton-accion a {
+    text-decoration: none;
+    color: #000;
+}
+
+.boton-accion:hover {
+    background-color: #fff;
+}
+
+.contenido span {
+    color: #39B3E6;
+    font-size: 65px
+}
+
+.formulario-ingreso {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.formulario-ingreso h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #39B3E6;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.formulario-ingreso input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #39B3E6;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.formulario-ingreso input:focus {
+    outline: none;
+}
+
+.placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.boton-login {
+    width: 240px;
+    height: 40px;
+    background: #39B3E6;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.boton-login:hover {
+    background: #fff;
+    color: #39B3E6;
+}
+
+.boton-login a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.formulario-ingreso .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.formulario-ingreso .link a {
+    text-decoration: none;
+    color: #39B3E6;
+}
+
+.redes {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+a img {
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+#instituto {
+    padding-top: 150px;
+    padding-right: 200px;
+    padding-left: 190px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: #fff;
+    text-align: justify;
+}
+
+.info1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info1 img {
+    width: 20vw;
+    margin-left: 30px;
+    border-radius: 10px;
+
+}
+
+
+#carreras{
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 190px;
+    padding-bottom: 150px;
+}
+#carreras h2{
+    text-align: center;
+    color:#fff;
+}
+
+.contenedor2 {
+    display: flex;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.tarjeta img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.tarjeta h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.tarjeta p {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.tarjeta button {
+    padding: 10px 20px;
+    background-color: #00b0ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+.pie-pagina {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    align-items: center;
+    margin-left: 190px;
+    text-decoration: none;
+    color: #ffffff93;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    line-height: 25px;
+    margin-bottom: 0px;  
+}
+.info2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
